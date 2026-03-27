@@ -1,0 +1,30 @@
+.text-type {
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+@media (min-width: 768px) {
+  .text-type {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-type {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.text-type__cursor {
+  margin-left: 0.25rem;
+  display: inline-block;
+  opacity: 1;
+}
+
+.text-type__cursor--hidden {
+  display: none;
+}
